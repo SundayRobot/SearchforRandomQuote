@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset = "UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Search for Random Quote</title>
+    <link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  </head>
+  <body>
+   <div id="whole-page">
+  	<header id="the-header">
+    	<div>
+    		<h1 id="the-h1">search for random quote</h1>
+    	</div>
+    <div id="search-div-inHeader">
+    	<input id="main-input" type="text" placeholder="...">
+    	<button id="search-button"><img  src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg"/></button>
+    </div>
+    <p id="p-tag"></p>
+   	</header>
+    <div id="container">
+      <p id="outspan" class="outspan"><< back to search</p>
+      <div id="results"></div>
+      <div id="results2"></div>
+   </div>
+  </div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+   <script src="./the_search.js"></script>
+  </body>
+</html>
